@@ -1,0 +1,179 @@
+#centercontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 150px;
+}
+
+ul{
+    list-style-type: none;
+    padding-left: 0;
+}
+
+li{
+    display: inline;
+}
+
+a{
+    padding: 8px;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+}
+
+.inputbox {
+    background-image: url('https://webstockreview.net/images/google-clipart-search-bar-3.png'), url('https://cdn2.iconfinder.com/data/icons/finance-solid-icons-vol-3/48/132-512.png');
+    background-position: right, left;
+    background-size: 15px, 15px;
+    background-repeat: no-repeat, no-repeat;
+    background-position-x: 97%, 3%;
+    border-width: 1px;
+    border-radius: 24px;
+    border-color: rgba(0, 0, 0, 0.2);
+    height:44px;
+    width:482px;
+    margin-top: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 17px;
+  }
+
+.inputbox:hover {
+    box-shadow: 0 -.5px 2px 0 rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.21);
+  }
+
+  *:focus{
+    outline: none;
+}
+
+.headcontainer{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    height: 50px;
+}
+
+.right a:link, .right a:visited {
+    text-decoration: none;
+    color: black;
+  }
+
+.right a:hover, .right a:active {
+    text-decoration: underline;
+    opacity: .75;
+  }
+
+.left a:link, .left a:visited {
+    text-decoration: none;
+    color: black;
+    opacity: .75;
+  }
+
+.left a:hover, .left a:active {
+    text-decoration: underline;
+  }
+
+.left, .right{
+    flex: 1;
+    font-size:14px;
+}
+
+.right{
+    text-align: right;   
+}
+
+.left{
+    text-align: left;
+    display: inline;
+}
+
+.apps{
+    padding: 0px 8px 0px 8px;
+    vertical-align: middle;
+    opacity: .60;
+}
+
+.apps:hover{
+   opacity: 1;
+}
+
+.signin{
+    background: #3c78dc;
+    border-radius: 4px;
+    font-size: 13px;
+    font-weight:bold;
+    outline: none;
+    color:#fff;
+    border: 1px solid #4285f4;
+    padding: 0 12px;
+    line-height: 28px;
+}
+
+#searchbuttons{
+    display: flex;          
+    flex-direction: row;  
+    justify-content: center;  
+    align-items: center; 
+    margin-top: 15px;
+}
+
+.rightbutton{
+    padding: 10px 24px;
+    padding: 10px 24px;
+    font-family: arial,sans-serif;
+    font-size: 15px;
+    border-radius: 5px;
+    color: #5F6368;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+}
+
+.leftbutton{
+    margin-right:25px;
+    padding: 10px 24px;
+    font-family: arial,sans-serif;
+    font-size: 15px;
+    border-radius: 5px;
+    color: #5F6368;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+}
+
+.leftbutton:hover{
+    border: 1px solid #adadad;
+    background:#f8f8f8 ;
+    color: black;
+}
+
+.rightbutton:hover{
+    border: 1px solid #adadad;
+    background:#f8f8f8 ;
+    color: black;
+}
+
+ 
+
+.navbar {
+    overflow: hidden;
+    background-color: #f2f2f2;
+    font-family: arial,sans-serif;
+    font-size: 15px;
+    color: #5F6368;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border-top: 5px solid black;
+    margin-left: -11px;
+  }
+
+  .navbar ul {
+    float: left;
+    padding: 2px 20px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  .rightfooter ul{
+      float: right;
+  }
