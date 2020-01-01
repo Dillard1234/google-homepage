@@ -6,15 +6,6 @@
     padding-top: 150px;
 }
 
-ul{
-    list-style-type: none;
-    padding-left: 0;
-}
-
-li{
-    display: inline;
-}
-
 a{
     padding: 8px;
     font-family: arial,sans-serif;
@@ -67,10 +58,10 @@ a{
 .left a:link, .left a:visited {
     text-decoration: none;
     color: black;
-    opacity: .75;
+    opacity: .65;
   }
 
-.left a:hover, .left a:active {
+.left a:hover, .left a:active, .rightfooter a:hover, .rightfooter a:active, .leftfooter a:hover, .leftfooter a:active {
     text-decoration: underline;
   }
 
@@ -158,22 +149,31 @@ a{
     overflow: hidden;
     background-color: #f2f2f2;
     font-family: arial,sans-serif;
-    font-size: 15px;
+    font-size: 25px;
     color: #5F6368;
     position: fixed;
     bottom: 0;
+    left:0;
     width: 100%;
-    border-top: 5px solid black;
-    margin-left: -11px;
+    border-top: 1px solid #adadad;
+    height: 35px;
+    margin: 0;
+    padding: 0;
+    
   }
 
-  .navbar ul {
+.leftfooter a{
     float: left;
-    padding: 2px 20px;
+    text-align: center;
+    margin-left: 15px;
+    color: #6b6b6bcb;
     text-decoration: none;
-    font-size: 17px;
-  }
+}
 
-  .rightfooter ul{
-      float: right;
-  }
+.rightfooter a{
+    float: right;
+    text-align: center;
+    margin-right: 15px;
+    color: #6b6b6bcb;
+    text-decoration: none;
+}
